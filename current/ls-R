@@ -1,0 +1,18 @@
+% ls-R -- filename database for kpathsea; do not change this line.
+
+./:
+ls-R
+tex
+
+./tex:
+luatex
+
+./tex/luatex:
+fontloader-luaotfload
+
+./tex/luatex/fontloader-luaotfload:
+fontloader-2017-02-11-stix.lua
+fontloader-reference-2017-07-28.lua
+fontloader-reference-2017-08-18.lua
+luaotfload-letterspace.lua
+luaotfload.conf
