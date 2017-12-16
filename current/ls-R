@@ -14,5 +14,9 @@ fontloader-luaotfload
 fontloader-2017-02-11-stix.lua
 fontloader-reference-2017-07-28.lua
 fontloader-reference-2017-08-18.lua
+fontloader-reference-2017-09-02.lua
+fontloader-reference-2017-10-11.lua
+fontloader-reference.2017-12-12-patched.lua
+fontloader-reference.2017-12-12.lua
 luaotfload-letterspace.lua
 luaotfload.conf
