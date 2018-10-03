@@ -1,0 +1,28 @@
+% !Mode:: "TeX:DE:UTF-8:Main"
+% file to test if uses are solved by older fontloaders ...
+\documentclass{article}
+\usepackage{fontspec}
+\usepackage{fontawesome}
+
+\begin{document}
+
+\faEnvelopeO{}
+
+\end{document}
+
+\documentclass{book}
+
+\usepackage{libertine}
+
+\begin{document}
+
+First hit this key sequence:\LKeyShiftX{H}
+
+Then hit these keys one by one:
+\LKey{E}\LKey{L}\LKey{L}\LKey{O}\LKeySpace\LKey{W}\LKey{O}\LKey{R}\LKey{L}\LKey{D}
+
+And finally hit the \LKeyEnter\ key.
+
+You should now see the phrase ``Hello world'' on your screen.
+
+\end{document}
