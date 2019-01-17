@@ -1,5 +1,20 @@
 % !Mode:: "TeX:DE:UTF-8:Main"
 % file to test if uses are solved by older fontloaders ...
+\documentclass[12pt]{article}
+\usepackage{fontspec}
+\usepackage[english]{babel}
+\newfontscript{Devanagari}{deva,dev2} %need to force deva!
+
+\newfontfamily\deva[Script=Devanagari]{siddhanta.ttf}
+\begin{document}
+
+\begin{quotation}\deva
+कर्मण्येवाधिकारस्ते मा फलेषु कदाचन।\\
+मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि॥ २-४७
+\end{quotation}
+\end{document}
+
+
 \documentclass{article}
 \usepackage{fontspec}
 \usepackage{fontawesome}
